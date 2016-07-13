@@ -7,16 +7,10 @@ import style from './App.css'
 class App extends Component {
   render() {
     return (
-        <div className={style.base}>
-            <Header />
-            <ul>
-                <li>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                </li>
-            </ul>
-
-            {this.props.children}
-        </div>
+      <div className={style.base}>
+        <Header />
+        <p className={style.beginHere}>Begin by editing <code>src/index.js</code></p>
+      </div>
     )
   }
 }
