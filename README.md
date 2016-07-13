@@ -45,7 +45,7 @@ $ Go to localhost:8080
 - Global/General components at the root of the `./components` folder because they can be reused in multiple places.
 - Most components can be reused a few times but probably not across the whole project. So, organise them into folders of modules containing a few components.
 
-Here's an example of file  structure for the time/weather component used in [GoMetro TV](tv.gometro.co.za):
+Here's an example of file  structure for the time/weather component used in [GoMetro TV](http://tv.gometro.co.za/):
 
 ![Lorem](readme-assets/TV-weather.png)
 ```
